@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .card {
+      @apply w-36 h-40  flex-none rounded-md shadow-xl md:w-48 md:h-56 };
+
+    .card-img{
+        @apply w-full h-3/5  rounded-t-md
+    }  
+    .card-infor{
+        @apply w-full h-1/2 p-2 rounded-b-md
+    }
+  }
